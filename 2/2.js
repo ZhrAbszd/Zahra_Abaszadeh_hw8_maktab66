@@ -11,7 +11,7 @@ class Circle {
 		this.radius = R
 	}
 	getArea() { return Math.PI * Math.pow(this.radius,2) }
-	getPerimeter(){ return 2 * Math.PI * this.radius }
+	getPerimeter() { return 2 * Math.PI * this.radius }
 }
 
 let circle = new Circle(4.44);
